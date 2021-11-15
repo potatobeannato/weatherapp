@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather App</title>
+    <link rel="shortcut icon" href="cloud32x32.png" type="x-icon" />
+  </head>
+  <body>
+    <div class="weather-search">
+      <header>
+        <input
+          type="text"
+          autocomplete="off"
+          class="search-box"
+          placeholder="Search for a city's weather"
+        />
+      </header>
+      <main>
+        <section class="location">
+          <div class="city">Boston, MA</div>
+          <div class="date">Sunday 10 December, 2021</div>
+          <div class="country">Location Coordinate</div>
+        </section>
+        <div class="current">
+          <div class="temp">
+            <img class="thermometer" src="thermometer.png" alt="" />
+            15<span>°C</span>
+          </div>
+          <div class="weather">Sunny</div>
+          <div class="humidity">Humidity:67%</div>
+          <div class="hi-low">13°C / 16°C</div>
+        </div>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
